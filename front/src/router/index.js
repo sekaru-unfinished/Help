@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import Help from '@/components/Help'
 import Chat from '@/components/Chat'
 import VueSocketio from 'vue-socket.io'
 
@@ -11,8 +11,8 @@ export default new Router({
   routes: [
     {
       path: '/h',
-      name: 'Hello',
-      component: HelloWorld
+      name: 'Home',
+      component: Help
     },
     {
       path: '/',

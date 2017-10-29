@@ -3,23 +3,20 @@
     <h1>Help</h1>
 
     <div class="wantToHelp">
-      <button type="button" name="wantToHelp">I Wan't to Help</button>
+      <button type="button" name="wantToHelp">I want to help</button>
     </div>
     <div class="needHelp">
-      <button type="button" name="needHelp">I need Help</button>
+      <button type="button" name="needHelp">I need help</button>
     </div>
     <div class="lookingToChat">
-      <button type="button" name="chat">Looking to Chat</button>
+      <button type="button" name="chat">Looking to chat</button>
     </div>
   </div>
-
-
-
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Help',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
@@ -28,7 +25,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1, h2 {
   font-weight: normal;
@@ -41,7 +37,5 @@ h1{
 button{
   padding: 40px;
   width: 300px;
-
 }
-
 </style>
