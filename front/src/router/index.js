@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Help from '@/components/Help'
+import Home from '@/components/Home'
 import Chat from '@/components/Chat'
 import VueSocketio from 'vue-socket.io'
 
@@ -10,12 +10,12 @@ Vue.use(VueSocketio, 'http://localhost:4000')
 export default new Router({
   routes: [
     {
-      path: '/h',
+      path: '/',
       name: 'Home',
-      component: Help
+      component: Home
     },
     {
-      path: '/',
+      path: '/chat',
       name: 'Chat',
       component: Chat
     }

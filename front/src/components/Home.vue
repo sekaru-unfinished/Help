@@ -11,12 +11,14 @@
     <div class="lookingToChat">
       <button type="button" name="chat">Looking to chat</button>
     </div>
+
+    <h2><router-link :to="'chat'">Chat</router-link></h2>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Help',
+  name: 'Home',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'

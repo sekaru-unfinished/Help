@@ -1,6 +1,6 @@
 <template>
   <div class="chat">
-    <h1>{{ msg }}</h1>
+    <h1><router-link :to="'/'">Home</router-link></h1>
     <div id="container">
         <div id="chatbox">
             <ul>
@@ -21,7 +21,6 @@ export default {
   name: 'Chat',
   data() {
     return {
-      msg: 'This is the chat',
       messages: [],
       chatBarText: '',
       myID: ''
